@@ -1,0 +1,429 @@
+.container-fluid {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+header{
+    width:100%;
+    height: 4rem;
+    background-color: #032541;
+    color:white;
+    display: flex;
+    text-align: right;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+header #logo{
+    width:20%;
+    display: block;
+    margin-right:1.2 rem;
+}
+#navigations nav ul{
+    display: flex;
+    list-style: none;
+    display: inline-flex;
+    margin-top:1.2rem;
+}
+#navigations nav ul li{
+    font-weight: 700;
+    padding-right: 2.5rem;
+}
+#login{
+    display: flex;
+}
+#login nav ul{
+    display: flex;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:1.2rem;
+}
+#login nav ul li{
+    margin-right: 1.2rem;
+    font-weight: 600;
+}
+#banner{
+    /* background-image: linear-gradient(to right, rgba(4, 42, 71, 0.7), rgba(23, 129, 236, 0.5)), url('https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/VlHt27nCqOuTnuX6bku8QZapzO.jpg'); */
+    width:100%;
+    height: 20.5rem;
+    background-size: cover;
+    background-position: 49% 49%;
+    position: relative;
+}
+#inner-text{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    color:white;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+#inner-text h3{
+    letter-spacing: 0.2px;
+}
+#navigations {
+    width: 48%;
+    display: flex;
+}
+#login nav ul li button{
+    background-color: #032541;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+}
+#login nav ul li button:hover{
+    background-color: white;
+    color:#032541;
+    cursor: pointer;
+}
+.search{
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);  
+}
+.search input{
+    height: 3rem;
+    text-indent: 1.2rem;
+    border: 2px solid #d6d4d4;
+    border-radius: 2.3rem;
+    width: 132%;
+    position: absolute;
+    top: 160%;
+    left: 0%;
+}
+.search input:focus{
+    box-shadow: none;
+    border: 2px solid blue;
+}
+.search button{
+    position: absolute;
+    top: 160%;
+    left: 120%;
+    height: 3rem;
+    width: 7.5rem;
+    background: linear-gradient(0.25turn, #78caae, #50c2c0, #1cb8d8);
+    border-radius: 27px;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+}
+#today-color{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5rem;
+    font-size: 1rem;
+}
+#this-week{
+    position: relative;
+    left: -1.5rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+}
+#trendy-movies{
+    display:flex;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    overflow-x: auto;
+}
+#article h4{
+    margin-right: 1.3rem;
+}
+#cards {
+    width: 20%;
+    margin-right: 0.4rem;
+    margin-left: 0.8rem;
+    position: relative;
+    top: 0;
+    bottom: 0;
+  }
+  
+#cards:hover {
+    /* box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2); */
+    cursor: pointer;
+}
+#cards a:hover{
+    color:rgb(55, 144, 180);
+}
+#card-img{
+    height: 15rem;
+    width: 10rem;
+    border-radius: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+#size-text{
+    font-size: 12px;
+    font-weight: 700;
+}
+#votes{
+    background-color: #032541;
+    color: yellow;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute; 
+    bottom: 6.1rem;
+    left: 0.7rem;
+    padding-top: 0.7rem;
+    text-align: center;
+    border-right: 3px solid yellow;
+}
+#trending-cards{
+    background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
+    background-position: 50% 100px;
+    background-size: var(--maxPrimaryPageWidth);
+    background-repeat: no-repeat;
+}
+#trendingContent{
+    padding: 2rem;
+}
+#latest-trailers{
+    background-image: linear-gradient(to bottom, rgba(4, 42, 71, 0.7), rgba(23, 129, 236, 0.5)), url('https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/aFI4g3JXzPPyxm6tA6jK20mChKq.jpg') ;
+    background-size: cover;
+    width: 100%;
+    overflow-x: auto;
+}
+#latest{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+#latest h4{
+    color:white;
+    margin-right:2rem;
+}
+#streaming{
+    width: 7rem;
+    /* height: 2rem; */
+    border-radius: 5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+}
+#onTv{
+    position: relative;
+    left:-0.5rem;
+    width: 7rem;
+    /* height: 2rem; */
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:white;
+    font-weight: 600;
+}
+#forRent{
+    position: relative;
+    left:-2.5rem;
+    width: 7rem;
+    /* height: 2rem; */
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:white;
+    font-weight: 600;
+}
+#inTheaters{
+    position: relative;
+    left:-3.5rem;
+    width: 7em;
+    /* height: 2rem; */
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:white;
+    font-weight: 600;
+}
+#videosButtons{
+    border:2px solid #78caae;
+    border-radius: 3.5rem;
+    height: 1.8rem;
+    width: 40%;
+}
+#streamingVideos {
+    display: flex;
+    margin-bottom: 2rem;
+}
+#streamingContent {
+    display: flex;
+    margin-bottom: 2rem;
+}
+#streamingVideos .smVideos img{
+    height: 200px;
+    width: 300px;
+    margin-right: 2rem;
+    border-radius: 1.2rem;
+    opacity: 0.7;
+}
+#streamingVideos .smVideos{
+    position: relative;
+    top: 0;
+}
+#streamingVideos .smVideos button{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: transparent;
+    top: 3rem;
+    left: 8rem;
+}
+#videoName{
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+#popular-movies{
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    overflow-x: auto;
+}
+#popular-article h4{
+    margin-right: 1.3rem;
+    margin-top: 2rem;
+}
+#videosButtonsPopular{
+    margin-top: 2rem;
+    border: 1px solid #032541;
+    border-radius: 3rem;
+}
+#votesP{
+    background-color: #032541;
+    color: greenyellow;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7.1rem;
+    left: 0.7rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-right: 3px solid greenyellow;
+    font-size: small;
+}
+#streamingPopular{
+    width: 7rem;
+    height: -webkit-fill-available;
+    border-radius: 5rem;
+    font-size: 1rem;
+    background-color: #032541;
+    color:#78caae;
+    border:1px solid black;
+}
+#onTvPopular{
+    position: relative;
+    left:-0.5rem;
+    width: 7rem;
+    height: -webkit-fill-available;
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:black;
+    font-weight: 600;
+}
+#forRentPopular{
+    position: relative;
+    left:-2.5rem;
+    width: 7rem;
+    height: -webkit-fill-available;
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:black;
+    font-weight: 600;
+}
+#inTheatersPopular{
+    position: relative;
+    left:-3.5rem;
+    width: 7em;
+    height: -webkit-fill-available;
+    border-radius: 5rem;
+    border-left: none;
+    font-size: 1rem;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:black;
+    font-weight: 600;
+}
+#free-movies{
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    overflow-x: auto;
+}
+#votesF{
+    background-color: #032541;
+    color: lightseagreen;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5.1rem;
+    left: 0.7rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-right: 3px solid lightseagreen;
+    font-size: small;
+}
+#footer{
+    background-color: #032541;
+    color:white;
+    width: 100%;
+    text-align: center;
+}
+#footerDiv{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: baseline;
+}
+#footer-logo {
+    width: 10%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+#footer-basics {
+    margin: 0;
+    list-style: none;
+    width: 10%;
+    text-align: left;
+    font-weight: 600;
+}
+#footer-basics ul li{
+    list-style: none;
+    margin-left: -2rem;
+    margin-bottom: 0.2rem;
+}
+#footer-basics h5{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#footer-logo img{
+    margin-bottom: 2rem;
+}
+#footer-logo button{
+    color: skyblue;
+    font-weight: 900;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10%;
+}
+#header-search{
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+/* #sreach{
+    visibility: hidden;
+} */
